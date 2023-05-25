@@ -1,0 +1,63 @@
+.plans {
+    padding: 5.6vw;
+
+    h2 {
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
+
+        &__item {
+            text-align: center;
+            display: flex;
+            align-items: end;
+            padding: 60px 44px 20px;
+            max-width: 380px;
+            height: 423px;
+            width: 100%;
+
+            &:nth-child(1) {
+                background-image: url(../../dist/images/capas/spiderman1.jpg);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            &:nth-child(2) {
+                background-image: url(../../dist/images/capas/spiderman2.jpg);
+                background-repeat: no-repeat;   
+                background-size: contain;
+            }
+
+            &:nth-child(3) {
+                background-image: url(../../dist/images/capas/spiderman3.jpg);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            img {
+                height: 83px;
+            }
+
+            strong {
+                display: block;
+                margin-top: 24px;
+            }
+        }
+
+    }
+
+    p {
+        text-align: center;
+    }
+}
